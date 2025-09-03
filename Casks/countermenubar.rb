@@ -1,6 +1,6 @@
 cask "countermenubar" do
-  version "1.1.1"
-  sha256 "6b8e0c87e22d8178db23a91dac8f20135db1ca853543d790d46de4eb6eade8c6"
+  version "1.1.2"
+  sha256 "f5385dbd7f21582a0f2006a607568f2e1224836e5f749dc91f1d9b16a7e305bb"
 
   url "https://github.com/ef-ache/CounterMenuBar/releases/download/v#{version}/CounterMenuBar-#{version}.dmg"
   name "CounterMenuBar"
