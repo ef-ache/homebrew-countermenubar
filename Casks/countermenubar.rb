@@ -18,4 +18,14 @@ cask "countermenubar" do
     "~/Library/Preferences/com.yourname.CounterMenuBar.plist",
     "~/Library/Application Support/CounterMenuBar",
   ]
+
+  caveats <<~EOS
+    On first launch, macOS may show a security warning.
+    To open the app:
+    1. Right-click CounterMenuBar in Applications
+    2. Select "Open" from the menu
+    3. Click "Open" in the dialog
+    
+    Or run: xattr -cr /Applications/CounterMenuBar.app
+  EOS
 end
